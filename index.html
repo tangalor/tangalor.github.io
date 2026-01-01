@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangalor - Progetti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .projects {
+            display: grid;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-decoration: none;
+            color: inherit;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .project-card h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .project-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .project-card .url {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tangalor</h1>
+        <p class="subtitle">I miei progetti</p>
+        
+        <div class="projects">
+            <a href="https://tangalor.github.io/lifetracker/" class="project-card">
+                <h2>🎯 LifeTracker</h2>
+                <p>Tracker personale per gestire e monitorare le attività quotidiane e gli obiettivi di vita.</p>
+                <p class="url">tangalor.github.io/lifetracker/</p>
+            </a>
+
+            <a href="https://tangalor.github.io/clippings/" class="project-card">
+                <h2>📚 Clippings</h2>
+                <p>Raccolta e gestione di appunti, citazioni e contenuti interessanti.</p>
+                <p class="url">tangalor.github.io/clippings/</p>
+            </a>
+
+            <a href="https://tangalor.github.io/suggest-a-gift/food-plan/" class="project-card">
+                <h2>🍽️ Food Plan</h2>
+                <p>Pianificatore di pasti e suggerimenti per idee regalo culinarie.</p>
+                <p class="url">tangalor.github.io/suggest-a-gift/food-plan/</p>
+            </a>
+        </div>
+
+        <footer>
+            © 2026 Tangalor - Tutti i diritti riservati
+        </footer>
+    </div>
+</body>
+</html>
